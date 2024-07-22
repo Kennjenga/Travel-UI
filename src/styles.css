@@ -1,0 +1,186 @@
+:root{
+    --black: black;
+    --white: white;
+    --font-family: 'Arial', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    /* outline: 1px solid black; */
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 200px;
+    aspect-ratio: 1 / 1;
+}
+.dest img{
+    height: 200px;
+}
+.cont{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    padding: 0;
+    background-image: url('./images//hero-world.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: white;
+    overflow-x: hidden;
+    min-height: 80vh;
+    max-height: fit-content;
+}
+.navbar{
+    background: rgba(49, 95, 102, 0.5);
+    backdrop-filter: blur(20px);
+    color: var(--white);
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: var(--white);
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#destinations-list .card {
+    margin-bottom: 30px;
+}
+.back{
+    background-color: #315F66;
+    width: 100%;
+}
+.user img{
+    width: 40px;
+    height: 40px;
+}
+
+/* destination.html */
+.nav-dest{
+    background-color: #315F66;
+}
+.carousel-item img{
+    height: 80vh;
+}
+#carouselExampleCaptions {
+    position: relative;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: transparent;
+  }
+
+  .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+
+  .carousel-indicators button.active {
+    opacity: 1;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    background: none;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background: none;
+    opacity: 1;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+    background-size: 50% 50%;
+  }
+  .destination img{
+    aspect-ratio: 1 / 0.6;
+  }
+  /* user.html */
+.review img{
+    width: 50px;
+    height: 50px;
+}
+.userbtn{
+    background-color: #032B30;
+    width: 110px;
+}
+.userbtn img{
+    width: 30px;
+    aspect-ratio: 1 / 1;
+}
+.star img{
+    width: 10px;
+    height: 10px;
+}
+/* tour.html */
+.tron {
+    background-image: url('./images/newyork\ \(2\).jpg');
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 85vh;
+    max-height: fit-content;
+}
+.york h1{
+    font-family: 'Indie Flower';
+}
+.tour{
+    width: 90%;
+}
+.tour img{
+    aspect-ratio: 1/ 0.7;
+} 
+.visit-places p{
+    font-size: 12px;
+}
+.tour .right-img{
+     max-width: 100%;
+     aspect-ratio: 1 / 0.45;
+}
+#accommodation img{
+    max-width: 100%;
+    max-height: 200px;
+}
+#accommodation p{
+    font-size: 12px;
+}

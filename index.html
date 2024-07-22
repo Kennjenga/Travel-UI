@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Reality Travel Experience</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+    <!-- hero section -->
+    <div class="jumbotron container-fluid text-center text-black position-relative d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top position-fixed top-0 start-0">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="#">VR TRAVEL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center px-2 mx-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./src/destination.html">
+                                Destinations
+                            </a>
+                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                Add dropdown items here
+                            </ul> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./src/tour.html">VR Tour</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light rounded-pill" href="./src/user.html">SIGN IN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row justify-content-center align-items-center flex-grow-1">
+            <div class="col-md-8">
+                <h1 class="display-4 mb-4">EXPLORE THE WORLD VIRTUALLY</h1>
+                <p class="lead mb-5">Experience travel like never before with our virtual reality tours.</p>
+                <a href="./src/destination.html" class="btn btn-primary btn-lg px-5">Browse Destinations</a>
+            </div>
+        </div>
+    </div>
+    <!-- destination section -->
+    <div class="tour">
+        <h1 class="text-center mb-4">Popular Travel Destinations</h1>
+        <p class="text-center text-muted mb-5">Start your journey with one click, explore the beautiful world!</p>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="dest card shadow">
+                    <img src="./src/images/paris.jpg" class="card-img-top" alt="Paris">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris, France</h5>
+                        <p class="card-text">Experience the city of lights and its iconic landmarks. Experience the
+                            city
+                            of lights and its iconic landmarks.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-outline-secondary">BOOK</button>
+                            <button class="btn btn-secondary">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="dest card shadow">
+                    <img src="./src/images/tokyo.jpg" class="card-img-top" alt="Tokyo">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo, Japan</h5>
+                        <p class="card-text">Discover the blend of tradition and technology in Tokyo. Discover the
+                            blend
+                            of tradition and technology in Tokyo.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-outline-secondary">BOOK</button>
+                            <button class="btn btn-secondary">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="dest card shadow">
+                    <img src="./src/images/new-york.jpg" class="card-img-top" alt="New York">
+                    <div class="card-body">
+                        <h5 class="card-title">New York, USA</h5>
+                        <p class="card-text">Explore the city that never sleeps with its bustling streets. Explore
+                            the
+                            city that never sleeps with its bustling streets.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-outline-secondary">BOOK</button>
+                            <button class="btn btn-secondary">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- review section -->
+    <div class="container mt-5">
+        <h2 class="mb-4">Latest reviews</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3 star">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" width="20">
+                        </div>
+                        <h3 class="card-title">PARIS</h3>
+                        <p class="card-text">Experience the city of lights and its iconic landmarks.</p>
+                        <div class="user d-flex align-items-center mt-3">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/63e5c59a63559d036116f16a9815d063e5e1e04327cf0b6101b79823ad1ce768"
+                                alt="Reviewer" class="me-3">
+                            <div>
+                                <p class="mb-0 fw-bold">Reviewer name</p>
+                                <small class="text-muted">Date</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3 star">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" width="20">
+                        </div>
+                        <h3 class="card-title">TOKYO</h3>
+                        <p class="card-text">Discover the blend of tradition and technology in Tokyo.</p>
+                        <div class="user d-flex align-items-center mt-3">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/39fadc4ab67d2731db15c489d4877802c3edce5f7f7fb2309171d670219d4797"
+                                alt="Reviewer" class="me-3">
+                            <div>
+                                <p class="mb-0 fw-bold">Reviewer name</p>
+                                <small class="text-muted">Date</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3 star">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" class="me-1" width="20">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/038a79ea452468600e41a65a54ad3c65df29279fd47d6a100ba5ad8dd0e7edcb?apiKey=8b634b9094e84ec0b81d05754983883d&"
+                                alt="Star" width="20">
+                        </div>
+                        <h3 class="card-title">NEW YORK</h3>
+                        <p class="card-text">Explore the city that never sleeps with its bustling streets.</p>
+                        <div class="user d-flex align-items-center mt-3">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/46243743a31a4e0b16c410ff8f192b0f31caf79cec1aad79bfcc87b476e682a1"
+                                alt="Reviewer" class="me-3">
+                            <div>
+                                <p class="mb-0 fw-bold">Reviewer name</p>
+                                <small class="text-muted">Date</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <footer class="back text-white pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-4">VR Travel</h3>
+                    <p class="mb-2">Travel complete</p>
+                    <p>@2024</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Destinations</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Tokyo</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Paris</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">New York</a></li>
+                    </ul>
+                    <h5 class="mt-4">Travel Interest</h5>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Membership</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Community</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-6">
+            <div class="text-center">
+                <p>&copy; 2024 VR Travel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
