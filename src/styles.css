@@ -32,7 +32,7 @@ img{
 }
 .jumbotron {
     padding: 0;
-    background-image: url('./images//hero-world.jpg');
+    background-image: url('https://ik.imagekit.io/jlez6y282/compressed/tr:w-1200/hero-world.jpg?updatedAt=1721758475912');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -74,6 +74,22 @@ img{
 .user img{
     width: 40px;
     height: 40px;
+}
+.navitems {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.star img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 991px) {
+    .navitems {
+        flex-direction: column;
+    }
 }
 
 /* destination.html */
@@ -135,25 +151,50 @@ img{
     aspect-ratio: 1 / 0.6;
   }
   /* user.html */
-.review img{
+  .usernav, footer{
+    background-color: #759498;
+  }
+  .usernav{
+    padding: 10px;
+  }
+  .sidebar{
+    background-color: #1B3438;
+    padding-left: 10px;
+  }
+  .sidebar img{
     width: 50px;
     height: 50px;
-}
-.userbtn{
-    background-color: #032B30;
-    width: 110px;
-}
-.userbtn img{
-    width: 30px;
-    aspect-ratio: 1 / 1;
-}
-.star img{
-    width: 10px;
-    height: 10px;
-}
-/* tour.html */
+  }
+  .ubs{
+    border-left: 1px solid var(--black);
+    border-radius: 10px;
+  }
+  .container-fluid{
+    padding: 0;
+    margin: 0;
+  }
+  .userhero{
+    background-image: url("https://ik.imagekit.io/jlez6y282/compressed/portada.png?updatedAt=1722238695266");
+    height: 350px;
+  }
+  .profile img{
+    width: 120px;
+    height: 120px;
+  }
+  .avatar img{
+    width: 40px;
+    height: 40px;
+  }
+  .contact{
+    flex-wrap: wrap;
+  }
+  .marina{
+    width: 330px;
+    height: 170px;
+  }
+  /* tour.html */
 .tron {
-    background-image: url('./images/newyork\ \(2\).jpg');
+    background-image: url('https://ik.imagekit.io/jlez6y282/compressed/tr:w-1200/new-york%20(2).jpg?updatedAt=1721758578475');
     background-size: cover;
     background-position: 40%;
     background-repeat: no-repeat;
