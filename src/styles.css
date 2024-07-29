@@ -32,7 +32,7 @@ img{
 }
 .jumbotron {
     padding: 0;
-    background-image: url('https://ik.imagekit.io/jlez6y282/compressed/tr:w-1200/hero-world.jpg?updatedAt=1721758475912');
+    background-image: url('https://ik.imagekit.io/jlez6y282/compressed/hero-world.jpg?updatedAt=1721758475912');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -156,13 +156,13 @@ img{
   }
   /* user.html */
   .usernav, footer{
-    background-color: #759498;
+    background-color: rgba(49, 95, 102, 0.5);
   }
   .usernav{
     padding: 10px;
   }
   .sidebar{
-    background-color: #1B3438;
+    background-color: #315F66;
     padding-left: 10px;
   }
   .sidebar img{
@@ -172,6 +172,7 @@ img{
   .ubs{
     border-left: 1px solid var(--black);
     border-radius: 10px;
+    margin-bottom: 1.5rem;
   }
   .container-fluid{
     padding: 0;
@@ -196,6 +197,7 @@ img{
     width: 330px;
     height: 170px;
   }
+ 
   /* tour.html */
 .tron {
     background-image: url('https://ik.imagekit.io/jlez6y282/compressed/tr:w-1200/new-york%20(2).jpg?updatedAt=1721758578475');
