@@ -13,9 +13,9 @@
 
 <body>
     <!-- hero section -->
-    <div class="tron container-fluid text-center text-black pb-5 position-relative d-flex flex-column">
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top position-fixed top-0 start-0 w-100">
-            <div class="container-fluid">
+    <div class="tron container-fluid pb-5 position-relative d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top position-fixed top-0 w-100">
+            <div class="container-fluid max-width-content">
                 <a class="navbar-brand fs-4" href="#">VR TRAVEL</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +26,8 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="./destination.html">
-                                Destinations
-                            </a>
-                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                Add dropdown items here
-                            </ul> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destination.html">Destinations</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./tour.html">VR Tour</a>
@@ -44,14 +39,15 @@
                 </div>
             </div>
         </nav>
-        <div class="row justify-content-center align-items-center flex-grow-1">
-            <div class="york col-md-8">
-                <h1 class="display-4 mb-4">EXPLORE NEW-YORK</h1>
+        <div class="row justify-content-start align-items-center flex-grow-1 w-100 ms-md-0">
+            <div class="col-md-8 text-start text-black">
+                <h1 class="display-4 mb-4">EXPLORE NEW-<br>YORK</h1>
                 <p class="lead mb-5">Experience travel like never before with our virtual reality tours.</p>
+                <a href="./src/destination.html" class="btn text-white btn-outline-dark btn-lg px-5">Discover NYC</a>
             </div>
         </div>
     </div>
-    <section class="tour my-5">
+    <section class="tour my-5 max-width-content">
         <h2 class="text-center mb-4">Places to explore in New York</h2>
         <div class="row visit-places">
             <!-- Brooklyn Bridge -->
@@ -138,7 +134,7 @@
         </div>
     </section>
 
-    <section class="tour my-5">
+    <section class="tour my-5 max-width-content">
         <div class="row">
             <div class="col-lg-8">
                 <h2 class="text-center mb-4">Accommodation</h2>
